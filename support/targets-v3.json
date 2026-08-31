@@ -21,7 +21,6 @@
         "SM-S936U",
         "SM-S936U1",
         "SM-S936W",
-        "SM-S9370",
         "SM-S937B",
         "SM-S937N",
         "SM-S937U",
@@ -42,6 +41,22 @@
       "exploit": {
         "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/artifacts/pa3q-S938NKSUACZF1/cve-2026-43499-app.so",
         "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-s25u-kdp",
+        "size": 6407096
+      }
+    },
+    {
+      "payloadId": "psq-S9370ZCS9CZG1",
+      "displayName": "Galaxy S25 Edge | Kernel 6.6.98",
+      "models": [
+        "SM-S9370"
+      ],
+      "kernelVersions": ["6.6.98"],
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/artifacts/psq-S9370ZCS9CZG1/cve-2026-43499-app.so",
+        "size": 125264
       },
       "kernelsu": {
         "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-s25u-kdp",
@@ -161,6 +176,36 @@
       "kernelsu": {
         "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-e1s-S921NKSSFDZF3-kdp",
         "size": 4758872
+      }
+    },
+    {
+      "payloadId": "galaxy-s23plus",
+      "displayName": "Galaxy S23+ | Kernel 5.15.189",
+      "models": [ "SM-S916B" ],
+      "kernelVersions": [ "5.15.189" ],
+      "requiresFreshP0Session": false,
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/artifacts/dm2q-S916BXXSAFZG1/cve-2026-43499-app.so",
+        "size": 130048
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-dm2q-S916BXXSAFZG1-kdp",
+        "size": 4879560
+      }
+    },
+    {
+      "payloadId": "galaxy-s23plus-korean",
+      "displayName": "Galaxy S23+ Korean Version | Kernel 5.15.189",
+      "models": [ "SM-S916N" ],
+      "kernelVersions": [ "5.15.189" ],
+      "requiresFreshP0Session": false,
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/artifacts/dm2q-S916NKSS8FZG1/cve-2026-43499-app.so",
+        "size": 130512
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-dm2q-S916BXXSAFZG1-kdp",
+        "size": 4879560
       }
     }
   ]
